@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.0//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+    <suppress checks="MagicNumber"
+              files=".*[\\/]src[\\/](test|it)[\\/]"/>
+    <suppress checks="MagicNumber"
+              files="Util\.java$"/>
+    <suppress checks="MagicNumber"
+              files="Constant\.java"/>
+    <suppress checks="ParameterNumber"
+              files="Util\.java$"/>
+    <suppress checks="RegexpSinglelineJava"
+              files="ConvertUtil.java" />
+    <suppress checks="InterfaceTypeParameterName"
+              files="OrmConverter.java" />
+    <suppress checks="InterfaceTypeParameterName"
+              files="ViewConverter.java" />
+</suppressions>
